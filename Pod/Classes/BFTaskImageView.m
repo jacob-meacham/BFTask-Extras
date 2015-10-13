@@ -8,6 +8,7 @@
 
 #import "BFTaskImageView.h"
 
+#if TARGET_OS_IPHONE
 @implementation BFTaskImageView
 
 - (instancetype)initWithTask:(BFTask *)task {
@@ -38,3 +39,4 @@
 }
 
 @end
+#endif

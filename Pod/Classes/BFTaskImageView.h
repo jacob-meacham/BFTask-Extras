@@ -7,6 +7,7 @@
 //
 
 #import <Bolts.h>
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
 
 @interface BFTaskImageView : UIImageView
@@ -16,3 +17,4 @@
 - (instancetype)initWithTask:(BFTask *)task;
 
 @end
+#endif
