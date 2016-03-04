@@ -8,7 +8,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "BFTask-Extras"
+  s.name             = "BFTask-Extras-OSX"
   s.version          = "0.2.5"
   s.summary          = "A collection of useful extras to make working with BFTasks more pleasant."
   s.description      = <<-DESC
